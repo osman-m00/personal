@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-   <header className="w-full border-blue-200 bg-blue-400">
-   <div className="container mx-auto flex items-center">
+   <header className="w-full border-blue-200 bg-blue-400 h-21">
+   <div className="container mx-auto flex items-center h-full">
     <div className="logo flex-shrink-0">
         <img src="./html.png" alt="Logo" className='w-14 h-14' />
     </div>
