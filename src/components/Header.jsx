@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Weather from './Weather'
 const Header = () => {
   return (
    <header className="w-full bg-gradient-to-r from-blue-500 to-blue-600 shadow-lg">
@@ -29,7 +29,10 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      
+       
+       <div className="mr-4">
+        <Weather />
+      </div>
       {/* Social Links */}
       <div className="flex items-center space-x-4">
         <a 
