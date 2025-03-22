@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Card from './components/Card'
+import About from './components/About'
 import CVPage from './components/CVPage'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
               <Card />
             </>
           } />
+          <Route path="/about" element={<About />} />
           <Route path="/cv" element={<CVPage />} />
         </Routes>
       </div>
